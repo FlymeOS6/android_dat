@@ -1,0 +1,5 @@
+./sdat2img.py system.transfer.list system.new.dat system.img
+sudo mkdir /mnt/system
+sudo mount -t ext4 -o loop system.img /mnt/system
+sudo ./make_ext4fs -T 0 -S file_contexts -l 1388314624 -a system system_new.img /mnt/system
+./rimg2sdat system_new.img
