@@ -1,7 +1,7 @@
 **Dat轉Img(Ext4)**
 
 
-sudo sdat2img system.transfer.list system.new.dat system.img
+sdat2img.py system.transfer.list system.new.dat system.img
 
 
 **掛載System**
@@ -32,7 +32,7 @@ sudo rimg2sdat system_ext4.img
 
 ##需要使用的程式##
 
-**sdat2img**
+**sdat2img.py**
 
 **make_ext4fs**
 
